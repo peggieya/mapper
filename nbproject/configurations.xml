@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="libstreetmap">
+        <df name="src">
+          <df name="easygl">
+            <in>Surface.cpp</in>
+            <in>fontcache.cpp</in>
+            <in>graphics.cpp</in>
+            <in>graphics_state.cpp</in>
+            <in>graphics_types.cpp</in>
+          </df>
+          <in>find_path.cpp</in>
+          <in>find_path.h</in>
+          <in>m1.cpp</in>
+          <in>m2.cpp</in>
+          <in>m2_helper.cpp</in>
+          <in>m2_helper.h</in>
+          <in>m3.cpp</in>
+          <in>m4.cpp</in>
+          <in>m4_helper.cpp</in>
+          <in>m4_helper.h</in>
+          <in>m4_thread.cpp</in>
+          <in>m4_thread.h</in>
+          <in>structure.cpp</in>
+          <in>structure.h</in>
+          <in>test.cpp</in>
+          <in>while.cpp</in>
+        </df>
+        <df name="tests">
+          <in>courier_verify.cpp</in>
+          <in>london_england_driver.cpp</in>
+          <in>m4_load_map_driver.cpp</in>
+          <in>m4_valgrind_driver.cpp</in>
+          <in>newyork_driver.cpp</in>
+          <in>path_verify.cpp</in>
+          <in>test_m4.cpp</in>
+          <in>tester_main.cpp</in>
+          <in>toronto_driver.cpp</in>
+          <in>unit_test_m1.cpp</in>
+          <in>unit_test_path.cpp</in>
+        </df>
+      </df>
+      <df name="main">
+        <df name="src">
+          <in>main.cpp</in>
+        </df>
+      </df>
+    </df>
+    <df root="." name="1">
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="0">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11 -O3 -fopenmp"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile CONF=release</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>mapper</executablePath>
+          <ccTool flags="-O3 -std=c++11 -fopenmp">
+            <incDir>
+              <pElem>libstreetmap/src</pElem>
+              <pElem>libstreetmap/src/easygl</pElem>
+              <pElem>/cad2/ece297s/public/include/milestones</pElem>
+              <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+              <pElem>/usr/include/cairo</pElem>
+              <pElem>/usr/include/glib-2.0</pElem>
+              <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+              <pElem>/usr/include/pixman-1</pElem>
+              <pElem>/usr/include/freetype2</pElem>
+              <pElem>/usr/include/libpng12</pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="libstreetmap/src/easygl/Surface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/fontcache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics_state.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics_types.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/find_path.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/find_path.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2_helper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/structure.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/while.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/test_m4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/unit_test_m1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/unit_test_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="main/src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="Debug" type="0">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11 -fopenmp"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile CONF=debug</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>mapper</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <folder path="0/libstreetmap">
+        <ccTool>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/libstreetmap/tests">
+        <ccTool>
+          <incDir>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/main">
+        <ccTool>
+          <incDir>
+            <pElem>libstreetmap/src</pElem>
+            <pElem>libstreetmap/src/easygl</pElem>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="libstreetmap/src/find_path.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>libstreetmap/src</pElem>
+            <pElem>libstreetmap/src/easygl</pElem>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>libstreetmap/src</pElem>
+            <pElem>libstreetmap/src/easygl</pElem>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2_helper.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m3.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>libstreetmap/src</pElem>
+            <pElem>libstreetmap/src/easygl</pElem>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4_helper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>libstreetmap/src</pElem>
+            <pElem>libstreetmap/src/easygl</pElem>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4_thread.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>libstreetmap/src</pElem>
+            <pElem>libstreetmap/src/easygl</pElem>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/structure.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/test.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/while.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/test_m4.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="libstreetmap/tests/unit_test_m1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="libstreetmap/tests/unit_test_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="main/src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="DebugCheck" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11 -fsanitize=address -fopenmp"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile CONF=debug_check</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>mapper</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/cad2/ece297s/public/include/milestones</pElem>
+              <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+              <pElem>/usr/include/freetype2</pElem>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>_GLIBCXX_DEBUG</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="libstreetmap/src/find_path.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/find_path.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m2_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m2_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/structure.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/structure.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/while.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/test_m4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/unit_test_m1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/unit_test_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="main/src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="UnitTest_Release" type="0">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O3 -std=c++11 -fopenmp"/>
+        <element flagsID="1" commonFlags="-std=c++11 -O3 -fopenmp"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile test_libstreetmap CONF=release</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>test_libstreetmap</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>libstreetmap/src</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <folder path="0/libstreetmap">
+        <ccTool>
+          <incDir>
+            <pElem>libstreetmap/src/easygl</pElem>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/main">
+        <ccTool>
+          <incDir>
+            <pElem>libstreetsdatabase/src</pElem>
+            <pElem>main/src</pElem>
+            <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+            <pElem>/cad2/ece297s/public/include/milestones</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="libstreetmap/src/easygl/Surface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/fontcache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics_state.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics_types.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/find_path.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2_helper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m3.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4_helper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4_thread.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/structure.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/test.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/while.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/courier_verify.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/london_england_driver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/m4_load_map_driver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/m4_valgrind_driver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/newyork_driver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/path_verify.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/test_m4.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/tester_main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/toronto_driver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/unit_test_m1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/unit_test_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="main/src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="UnitTest_Debug" type="0">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11 -fopenmp"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile test_libstreetmap CONF=debug</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>test_libstreetmap</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>libstreetmap/src</pElem>
+              <pElem>libstreetmap/src/easygl</pElem>
+              <pElem>/cad2/ece297s/public/include/milestones</pElem>
+              <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+              <pElem>/usr/include/cairo</pElem>
+              <pElem>/usr/include/glib-2.0</pElem>
+              <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+              <pElem>/usr/include/pixman-1</pElem>
+              <pElem>/usr/include/freetype2</pElem>
+              <pElem>/usr/include/libpng12</pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="libstreetmap/src/easygl/Surface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/fontcache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics_state.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics_types.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/find_path.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2_helper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m3.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4_helper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4_thread.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/structure.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/test.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/while.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/newyork_driver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/test_m4.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="UnitTest_DebugCheck" type="0">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11 -fsanitize=address -fopenmp"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile test_libstreetmap CONF=debug_check</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>test_libstreetmap</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>libstreetmap/src</pElem>
+              <pElem>libstreetmap/src/easygl</pElem>
+              <pElem>/cad2/ece297s/public/include/milestones</pElem>
+              <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+              <pElem>/usr/include/cairo</pElem>
+              <pElem>/usr/include/glib-2.0</pElem>
+              <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+              <pElem>/usr/include/pixman-1</pElem>
+              <pElem>/usr/include/freetype2</pElem>
+              <pElem>/usr/include/libpng12</pElem>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>_GLIBCXX_DEBUG</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="libstreetmap/src/easygl/Surface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/fontcache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics_state.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/easygl/graphics_types.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/find_path.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2_helper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m3.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4_helper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m4_thread.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/structure.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/test.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/while.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/tests/test_m4.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="Profile" type="0">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11 -O3 -fopenmp"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile CONF=profile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>mapper</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/cad2/ece297s/public/include/milestones</pElem>
+              <pElem>/cad2/ece297s/public/include/streetsdatabase</pElem>
+              <pElem>/usr/include/freetype2</pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="libstreetmap/src/find_path.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/find_path.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libstreetmap/src/m2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m2_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m2_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/m4_thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/structure.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/structure.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/src/while.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/test_m4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/unit_test_m1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libstreetmap/tests/unit_test_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="main/src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
